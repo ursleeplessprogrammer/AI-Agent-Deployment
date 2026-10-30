@@ -136,11 +136,11 @@ ai-agent/
 ├── .env.example
 ├── .gitignore
 └── README.md
-
 ```
-Never commit real API keys, passwords, or tokens. An .env.example file should contain placeholder values only.
 
-5. Expose the Agent
+## Never commit real API keys, passwords, or tokens. An .env.example file should contain placeholder values only.
+
+### 5. Expose the Agent
 An agent can be accessed through:
 
 An HTTP API
@@ -150,7 +150,7 @@ A background job or task queue
 An integration with another application
 The application layer should handle authentication, authorization, input validation, request limits, timeouts, and consistent error responses. Do not expose secrets or unrestricted tool access to client-side code.
 
-6. Manage State and Long-Running Tasks
+### 6. Manage State and Long-Running Tasks
 Decide what information must persist between requests:
 
 Conversation history
@@ -160,7 +160,7 @@ Tool results
 Human-review status
 Use durable storage when state needs to survive application restarts. For longer tasks, consider queues, checkpoints, task-status updates, retry rules, and cancellation support.
 
-**Section 4 — Deployment models and production readiness**
+
 
 ## Deployment Models
 
