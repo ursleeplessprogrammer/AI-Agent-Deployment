@@ -67,8 +67,8 @@ Agent runtime ──→ Model provider
 Database or persistent state
   ↓
 Logs, traces, metrics, alerts, and evaluations
+```
 
-```markdown
 ## Learning Roadmap
 
 ### 1. Understand the Agent
