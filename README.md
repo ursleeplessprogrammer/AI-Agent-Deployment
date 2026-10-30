@@ -55,21 +55,18 @@ Deployment involves more than hosting a model call. Production agents may make m
 ## Typical Architecture
 
 ```text
-  User
-    ↓
-  Web application, chat interface, or client
-    ↓
-  Backend API
-    ↓
-  Agent runtime ──→ Model provider
-    │               └→ Tools and external services
-    ↓
-  Database or persistent state
-    ↓
-  Logs, traces, metrics, alerts, and evaluations
-
-```
-**Section 3 — Learning roadmap**
+User
+  ↓
+Web application, chat interface, or client
+  ↓
+Backend API
+  ↓
+Agent runtime ──→ Model provider
+  │               └→ Tools and external services
+  ↓
+Database or persistent state
+  ↓
+Logs, traces, metrics, alerts, and evaluations
 
 ```markdown
 ## Learning Roadmap
